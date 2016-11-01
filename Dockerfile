@@ -13,4 +13,4 @@ ENV KRAUT_BUILD_PATH=/app/bin
 RUN cd /app/build && \
     make all && \
 
-ENTRYPOINT /app/bin/kraut-service
+ENTRYPOINT ["/app/bin/kraut-service"]

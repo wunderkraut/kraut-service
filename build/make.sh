@@ -7,7 +7,7 @@ set -e
 GOVERSION="latest"
 
 export KRAUT_PKG='github.com/wunder/kraut-service'
-export KRAUT_BUILD_PATH="${KRAUT_BUILD_PATH:-/app/bin}"
+export KRAUT_BUILD_PATH="${KRAUT_BUILD_PATH:-./bin}"
 export KRAUT_BINARY_NAME="kraut-service"
 
 export KRAUT_BUILD_BINARY_PATH="${KRAUT_BUILD_PATH}/${KRAUT_BINARY_NAME}"
