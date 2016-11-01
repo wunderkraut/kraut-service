@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -f "${KRAUT_BUILD_BINARY_PATH}"
