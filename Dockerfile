@@ -11,6 +11,7 @@ RUN mkdir /app && \
 ADD ./ /app/build
 ENV KRAUT_BUILD_PATH=/app/bin
 RUN cd /app/build && \
-    make all && \
+    make all
 
+EXPOSE 8080
 ENTRYPOINT ["/app/bin/kraut-service"]
