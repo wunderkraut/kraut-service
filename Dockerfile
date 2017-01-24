@@ -14,4 +14,4 @@ RUN cd /app/build && \
     make all
 
 EXPOSE 8080
-ENTRYPOINT ["/app/bin/kraut-service"]
+ENTRYPOINT ["/app/bin/radi-service"]

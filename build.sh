@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag kraut-service .
+docker build --tag radi-service .
