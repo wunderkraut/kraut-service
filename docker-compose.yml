@@ -1,0 +1,10 @@
+version: 2
+services:
+
+  radi:
+    image: radi-service
+    links:
+      - mongodb:mongodb.app
+
+  mongodb:
+    image: mongodb
